@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "unhingedcarnivalsupplies",
+  "version": "${version}",
+  "name": "Unhinged Carnival Supplies",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Aikoyori/Unhinged Carnival Supplies"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/unhinged_carnival_supplies/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.aikoyori.unhinged_carnival_supplies.client.UnhingedCarnivalSuppliesClient"
+    ],
+    "main": [
+      "xyz.aikoyori.unhinged_carnival_supplies.UnhingedCarnivalSupplies"
+    ]
+  },
+  "mixins": [
+    "unhinged_carnival_supplies.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
