@@ -34,11 +34,12 @@ public class UnhingedCarnivalSuppliesClient implements ClientModInitializer {
     public void onInitializeClient() {
         HandledScreens.register(UnhingedCarnivalSupplies.SPECIAL_INVENTORY_SCREEN_HANDLER, SpecialInventoryHandledScreen::new);
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
+            /*
             while(actionKey.isPressed()){
                 // SCRATCH THAT I WANNA MAKE A BALL BOUNCE
                 //MinecraftClient.getInstance().setScreen(new SpecialInventoryHandledScreen());
                 //ClientPlayNetworking.send(new OpenSpecialInventoryC2S(true));
-            }
+            }*/
         });
         EntityModelLayerRegistry.registerModelLayer(MODEL_BALL, FunBallEntityModel::getTexturedModelData);
         EntityRendererRegistry.register(UnhingedCarnivalSupplies.FUN_BALL_ENTITY, FunBallEntityRenderer::new);

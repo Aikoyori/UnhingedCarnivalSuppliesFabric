@@ -19,6 +19,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.resource.featuretoggle.FeatureFlags;
 import net.minecraft.screen.ScreenHandlerType;
 import xyz.aikoyori.unhinged_carnival_supplies.entity.FunBallEntity;
+import xyz.aikoyori.unhinged_carnival_supplies.entity.FunBallHitBoxEntity;
 import xyz.aikoyori.unhinged_carnival_supplies.item.FunBallItem;
 import xyz.aikoyori.unhinged_carnival_supplies.networking.OpenSpecialInventoryC2S;
 import xyz.aikoyori.unhinged_carnival_supplies.screens.SpecialInventoryHandledScreen;

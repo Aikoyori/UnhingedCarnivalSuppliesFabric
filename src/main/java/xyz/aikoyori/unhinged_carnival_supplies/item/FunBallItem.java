@@ -19,10 +19,12 @@ public class FunBallItem extends Item {
         if(user.getStackInHand(hand).getItem() instanceof FunBallItem)
         {
             user.getStackInHand(hand).decrementUnlessCreative(1,user);
-            Vec3d spawnPos = user.getEyePos().add(user.getRotationVector().multiply(1.5));
+            Vec3d spawnPos = user.getPos().add(0,user.getEyeHeight(user.getPose()),0).add(user.getRotationVector().multiply(1.5));
             FunBallEntity funBallEntity = new FunBallEntity(world,spawnPos.getX(),spawnPos.getY(),spawnPos.getZ());
-            funBallEntity.setVelocity(user.getRotationVector().multiply(2));
+            funBallEntity.setVelocity(user.getRotationVector().multiply(1));
             world.spawnEntity(funBallEntity);
+
+            user.getItemCooldownManager().set(this,4);
             return TypedActionResult.<ItemStack>success(user.getStackInHand(hand),true);
         }
         return super.use(world, user, hand);

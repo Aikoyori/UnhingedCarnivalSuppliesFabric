@@ -1,5 +1,7 @@
 {
-  "key.unhingedcarnivalsupplies.action": "Action",
-  "category.unhingedcarnivalsupplies.keys": "Unhinged Carnival Supplies"
+  "key.unhingedcarnivalsupplies.action": "Action [Does nothing right now]",
+  "category.unhingedcarnivalsupplies.keys": "Unhinged Carnival Supplies",
+  "entity.unhingedcarnivalsupplies.fun_ball": "Fun Ball",
+  "item.unhingedcarnivalsupplies.fun_ball": "Fun Ball"
 
 }

@@ -3,13 +3,13 @@
   "id": "unhingedcarnivalsupplies",
   "version": "${version}",
   "name": "Unhinged Carnival Supplies",
-  "description": "",
-  "authors": [],
+  "description": "I tried to add things that remotely related to carnival but i had no time lmao",
+  "authors": ["Aikoyori"],
   "contact": {
     "repo": "https://github.com/Aikoyori/Unhinged Carnival Supplies"
   },
   "license": "GPL-3.0",
-  "icon": "assets/unhinged_carnival_supplies/icon.png",
+  "icon": "assets/unhingedcarnivalsupplies/ucsicon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
